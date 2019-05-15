@@ -1,0 +1,42 @@
+{
+  "name": "scant",
+  "version": "0.0.3",
+  "description": "A static site generator for Svelte.",
+  "bin": {
+    "scant": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voldemortensen/scant.git"
+  },
+  "keywords": [
+    "svelte",
+    "static",
+    "site",
+    "static",
+    "generator"
+  ],
+  "author": "voldemortensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voldemortensen/scant/issues"
+  },
+  "homepage": "https://github.com/voldemortensen/scant#readme",
+  "dependencies": {
+    "del": "^4.1.1",
+    "fs-extra": "^7.0.1",
+    "gray-matter": "^4.0.2",
+    "marked": "^0.6.2",
+    "rollup": "^1.11.3",
+    "rollup-plugin-clean": "^1.0.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-copy": "^2.0.1",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.2.4",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "svelte": "^3.3.0",
+    "yargs": "^13.2.2"
+  }
+}
