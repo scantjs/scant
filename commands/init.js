@@ -1,6 +1,6 @@
 exports.command = 'init';
 
-exports.desc = 'Create a new Sylph site in the current directory.';
+exports.desc = 'Create a new Scant site in the current directory.';
 
 exports.builder = {};
 
