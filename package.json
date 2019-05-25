@@ -1,6 +1,6 @@
 {
   "name": "scant",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A static site generator for Svelte.",
   "bin": {
     "scant": "bin/index.js"
